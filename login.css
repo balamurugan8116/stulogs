@@ -1,0 +1,74 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+h1{
+    color:#1E377E;
+    font-size:18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    width: 70%;
+}
+h4{
+    color: #1B306A;
+    font-family:"Poppins", sans-serif;
+    font-weight: 20%;
+    font-size: 80%;
+    opacity: 80%;
+    text-shadow: 20px;
+}
+hr{
+    background-color: #1B306A;
+    color: #1B306A;
+    width: 55px;
+    height: 1.5px;
+    border-radius: 90px;
+    border-style:solid;
+}
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(110, 111, 112, 0.9);
+    height:530px;
+    align-items: center;
+    width: min(100%,500px);
+}
+
+.signin-btn {
+    background-color: #1E377E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+.signin-btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    
+}
+
+.signin-btn i {
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:768px){
+    
+}
